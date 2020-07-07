@@ -11,7 +11,7 @@ class Email extends Component
     public $email;
 
     /** @var string|null */
-    public $emailSentMessage = false;
+    public $emailSentMessage = null;
 
     public function sendResetPasswordLink()
     {
@@ -21,7 +21,7 @@ class Email extends Component
 
         $response = $this->broker()->sendResetLink(['email' => $this->email]);
 
-        if ($response == Password::RESET_LINK_SENT) {
+        if ($response === Password::RESET_LINK_SENT) {
             $this->emailSentMessage = trans($response);
 
             return;

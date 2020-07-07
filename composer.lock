@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a5bbc36c83f49cedf9ad330002ca1094",
+    "content-hash": "2461d56b9deba27c4eadafaaac24d0f0",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -551,6 +551,62 @@
                 }
             ],
             "time": "2020-05-31T07:30:16+00:00"
+        },
+        {
+            "name": "get-things-done/attributes",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/get-things-done/attributes.git",
+                "reference": "cd8959b84e361b1db6e4366eb71b68bcab582c5c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/get-things-done/attributes/zipball/cd8959b84e361b1db6e4366eb71b68bcab582c5c",
+                "reference": "cd8959b84e361b1db6e4366eb71b68bcab582c5c",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^7.0",
+                "php": "^7.4"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^5.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "GetThingsDone\\Attributes\\AttributesServiceProvider"
+                    ],
+                    "aliases": {
+                        "Attributes": "GetThingsDone\\Attributes\\AttributesFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GetThingsDone\\Attributes\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cao Minh Duc",
+                    "email": "caominhduc31081@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "homepage": "https://github.com/get-things-done/attributes",
+            "keywords": [
+                "attributes",
+                "get-things-done"
+            ],
+            "time": "2020-06-12T02:10:01+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -4354,6 +4410,293 @@
             "time": "2019-10-24T08:53:34+00:00"
         },
         {
+            "name": "ui-builder/card",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ui-builder/card.git",
+                "reference": "73536b7523405bf0175804400f5e2bf945f85273"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ui-builder/card/zipball/73536b7523405bf0175804400f5e2bf945f85273",
+                "reference": "73536b7523405bf0175804400f5e2bf945f85273",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^7.0",
+                "php": "^7.4"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^4.0",
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "UiBuilder\\Card\\CardServiceProvider"
+                    ],
+                    "aliases": {
+                        "Card": "UiBuilder\\Card\\CardFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "UiBuilder\\Card\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cao Minh Duc",
+                    "email": "caominhduc31081@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "homepage": "https://github.com/ui-builder/card",
+            "keywords": [
+                "card",
+                "ui-builder"
+            ],
+            "time": "2020-06-27T02:04:41+00:00"
+        },
+        {
+            "name": "ui-builder/datatable",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ui-builder/datatable.git",
+                "reference": "9f3aa8fbd5955f1eb8f2b0c692d195f13f44a591"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ui-builder/datatable/zipball/9f3aa8fbd5955f1eb8f2b0c692d195f13f44a591",
+                "reference": "9f3aa8fbd5955f1eb8f2b0c692d195f13f44a591",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^7.0",
+                "livewire/livewire": "^1.0",
+                "php": "^7.4"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^4.0",
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "UiBuilder\\Datatable\\DatatableServiceProvider"
+                    ],
+                    "aliases": {
+                        "Datatable": "UiBuilder\\Datatable\\DatatableFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "UiBuilder\\Datatable\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cao Minh Duc",
+                    "email": "caominhduc31081@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "homepage": "https://github.com/ui-builder/datatable",
+            "keywords": [
+                "datatable",
+                "ui-builder"
+            ],
+            "time": "2020-06-12T02:09:44+00:00"
+        },
+        {
+            "name": "ui-builder/form",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ui-builder/form.git",
+                "reference": "f9ceffc4a87426ea031d70ae24a00793a4720ed7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ui-builder/form/zipball/f9ceffc4a87426ea031d70ae24a00793a4720ed7",
+                "reference": "f9ceffc4a87426ea031d70ae24a00793a4720ed7",
+                "shasum": ""
+            },
+            "require": {
+                "get-things-done/attributes": "dev-master",
+                "illuminate/support": "^7.0",
+                "livewire/livewire": "^1.1",
+                "php": "^7.4"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^5.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "UiBuilder\\Form\\FormServiceProvider"
+                    ],
+                    "aliases": {
+                        "Form": "UiBuilder\\Form\\FormFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "UiBuilder\\Form\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cao Minh Duc",
+                    "email": "caominhduc31081@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "homepage": "https://github.com/ui-builder/form",
+            "keywords": [
+                "form",
+                "ui-builder"
+            ],
+            "time": "2020-06-10T02:44:30+00:00"
+        },
+        {
+            "name": "ui-builder/navigation",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ui-builder/navigation.git",
+                "reference": "2399874ab7828245c0636767231aae8687c6fba6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ui-builder/navigation/zipball/2399874ab7828245c0636767231aae8687c6fba6",
+                "reference": "2399874ab7828245c0636767231aae8687c6fba6",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^7.0",
+                "php": "^7.4"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^5.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "UiBuilder\\Navigation\\NavigationServiceProvider"
+                    ],
+                    "aliases": {
+                        "Navigation": "UiBuilder\\Navigation\\NavigationFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "UiBuilder\\Navigation\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cao Minh Duc",
+                    "email": "caominhduc31081@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "homepage": "https://github.com/ui-builder/navigation",
+            "keywords": [
+                "navigation",
+                "ui-builder"
+            ],
+            "time": "2020-07-07T09:23:52+00:00"
+        },
+        {
+            "name": "ui-builder/ui-builder",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ui-builder/ui-builder.git",
+                "reference": "9bda1300152b1a74ce34b86ccdd86376de168556"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ui-builder/ui-builder/zipball/9bda1300152b1a74ce34b86ccdd86376de168556",
+                "reference": "9bda1300152b1a74ce34b86ccdd86376de168556",
+                "shasum": ""
+            },
+            "require": {
+                "get-things-done/attributes": "dev-master",
+                "illuminate/support": "^7.0",
+                "php": "^7.4",
+                "ui-builder/card": "dev-master",
+                "ui-builder/datatable": "dev-master",
+                "ui-builder/form": "dev-master",
+                "ui-builder/navigation": "dev-master"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^5.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "UiBuilder\\UiBuilder\\UiBuilderServiceProvider"
+                    ],
+                    "aliases": {
+                        "UiBuilder": "UiBuilder\\UiBuilder\\UiBuilderFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "UiBuilder\\UiBuilder\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cao Minh Duc",
+                    "email": "caominhduc31081@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "homepage": "https://github.com/ui-builder/ui-builder",
+            "keywords": [
+                "ui-builder"
+            ],
+            "time": "2020-07-07T09:38:00+00:00"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v4.1.7",
             "source": {
@@ -6544,7 +6887,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "ui-builder/ui-builder": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

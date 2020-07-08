@@ -13,6 +13,6 @@ parameters:
         - '#Unsafe usage of new static#'
 
     excludes_analyse:
-        - ./*/*/EmailVerificationController.php
+        - ./*/*/FileToBeExcluded.php
 
     checkMissingIterableValueType: false

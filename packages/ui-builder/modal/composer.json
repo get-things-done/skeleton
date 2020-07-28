@@ -1,0 +1,54 @@
+{
+    "name": "ui-builder/modal",
+    "description": "",
+    "keywords": [
+        "ui-builder",
+        "modal"
+    ],
+    "homepage": "https://github.com/ui-builder/modal",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Cao Minh Duc",
+            "email": "caominhduc31081@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "illuminate/support": "^7.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "UiBuilder\\Modal\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "UiBuilder\\Modal\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "UiBuilder\\Modal\\ModalServiceProvider"
+            ],
+            "aliases": {
+                "Modal": "UiBuilder\\Modal\\ModalFacade"
+            }
+        }
+    }
+}

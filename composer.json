@@ -7,17 +7,40 @@
         "laravel"
     ],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "packages/get-things-done/attributes"
+        },
+        {
+            "type": "path",
+            "url": "packages/ui-builder/form"
+        },
+        {
+            "type": "path",
+            "url": "packages/ui-builder/modal"
+        },
+        {
+            "type": "path",
+            "url": "packages/ui-builder/card"
+        }
+    ],
     "require": {
         "php": "^7.2.5",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
+        "get-things-done/attributes": "@dev",
         "guzzlehttp/guzzle": "^6.3",
         "laravel-frontend-presets/tall": "^1.7",
         "laravel/framework": "^7.0",
         "laravel/tinker": "^2.0",
         "laravel/ui": "^2.1",
         "livewire/livewire": "^1.3",
-        "ui-builder/ui-builder": "dev-master"
+        "spatie/laravel-medialibrary": "^8.0.0",
+        "ui-builder/form": "@dev",
+        "ui-builder/modal": "@dev",
+        "ui-builder/card": "@dev",
+        "ui-builder/navigation": "dev-master"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.3",
